@@ -9,11 +9,11 @@ package integration
 import (
 	"testing"
 
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/internal/testutil/assert"
-	"go.mongodb.org/mongo-driver/mongo/integration/mtest"
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
+	"github.com/appveen/mongo-go-driver/bson"
+	"github.com/appveen/mongo-go-driver/internal/testutil/assert"
+	"github.com/appveen/mongo-go-driver/mongo/integration/mtest"
+	"github.com/appveen/mongo-go-driver/mongo/options"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver"
 )
 
 func TestRetryableWritesProse(t *testing.T) {

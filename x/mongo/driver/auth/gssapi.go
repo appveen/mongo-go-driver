@@ -14,9 +14,9 @@ import (
 	"fmt"
 	"net"
 
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/auth/internal/gssapi"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/auth/internal/gssapi"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/description"
 )
 
 // GSSAPI is the mechanism name for GSSAPI.

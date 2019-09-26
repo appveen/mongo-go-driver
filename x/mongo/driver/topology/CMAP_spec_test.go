@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"go.mongodb.org/mongo-driver/event"
-	testHelpers "go.mongodb.org/mongo-driver/internal/testutil/helpers"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
+	"github.com/appveen/mongo-go-driver/event"
+	testHelpers "github.com/appveen/mongo-go-driver/internal/testutil/helpers"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/address"
 )
 
 type cmapEvent struct {

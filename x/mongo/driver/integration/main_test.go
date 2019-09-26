@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/x/mongo/driver/auth"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/auth"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/connstring"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/topology"
 )
 
 var host *string

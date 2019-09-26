@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/internal/testutil/assert"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/integration/mtest"
+	"github.com/appveen/mongo-go-driver/bson"
+	"github.com/appveen/mongo-go-driver/internal/testutil/assert"
+	"github.com/appveen/mongo-go-driver/mongo"
+	"github.com/appveen/mongo-go-driver/mongo/integration/mtest"
 )
 
 const (

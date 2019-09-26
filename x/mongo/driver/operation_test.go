@@ -8,17 +8,17 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/session"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/uuid"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/wiremessage"
+	"github.com/appveen/mongo-go-driver/bson/bsontype"
+	"github.com/appveen/mongo-go-driver/bson/primitive"
+	"github.com/appveen/mongo-go-driver/mongo/readconcern"
+	"github.com/appveen/mongo-go-driver/mongo/readpref"
+	"github.com/appveen/mongo-go-driver/mongo/writeconcern"
+	"github.com/appveen/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/address"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/description"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/session"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/uuid"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/wiremessage"
 )
 
 func noerr(t *testing.T, err error) {

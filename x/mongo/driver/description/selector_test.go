@@ -12,9 +12,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/tag"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
+	"github.com/appveen/mongo-go-driver/mongo/readpref"
+	"github.com/appveen/mongo-go-driver/tag"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/address"
 )
 
 func TestServerSelection(t *testing.T) {

@@ -18,8 +18,8 @@ import (
 	"unsafe"
 
 	"github.com/pkg/errors"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/mongocrypt/options"
+	"github.com/appveen/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/mongocrypt/options"
 )
 
 // These constants reprsent valid values for KmsProvider.

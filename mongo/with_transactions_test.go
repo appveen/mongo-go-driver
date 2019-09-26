@@ -12,15 +12,15 @@ import (
 	"testing"
 	"time"
 
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/internal/testutil"
-	"go.mongodb.org/mongo-driver/internal/testutil/assert"
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"
+	"github.com/appveen/mongo-go-driver/bson"
+	"github.com/appveen/mongo-go-driver/internal/testutil"
+	"github.com/appveen/mongo-go-driver/internal/testutil/assert"
+	"github.com/appveen/mongo-go-driver/mongo/options"
+	"github.com/appveen/mongo-go-driver/mongo/readpref"
+	"github.com/appveen/mongo-go-driver/mongo/writeconcern"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/description"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/topology"
 )
 
 func setupConvenientTransactions(t *testing.T) *Client {

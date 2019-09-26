@@ -12,14 +12,14 @@ import (
 	"context"
 	"errors"
 
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/event"
-	"go.mongodb.org/mongo-driver/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/session"
+	"github.com/appveen/mongo-go-driver/bson/bsontype"
+	"github.com/appveen/mongo-go-driver/event"
+	"github.com/appveen/mongo-go-driver/mongo/readconcern"
+	"github.com/appveen/mongo-go-driver/mongo/readpref"
+	"github.com/appveen/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/description"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/session"
 )
 
 // Find performs a find operation.

@@ -9,9 +9,9 @@ package options
 import (
 	"time"
 
-	"go.mongodb.org/mongo-driver/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"github.com/appveen/mongo-go-driver/mongo/readconcern"
+	"github.com/appveen/mongo-go-driver/mongo/readpref"
+	"github.com/appveen/mongo-go-driver/mongo/writeconcern"
 )
 
 // TransactionOptions represents all possible options for starting a transaction.

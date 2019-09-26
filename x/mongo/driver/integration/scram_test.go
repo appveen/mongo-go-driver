@@ -6,13 +6,13 @@ import (
 	"os"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/internal/testutil"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"
+	"github.com/appveen/mongo-go-driver/bson/bsontype"
+	"github.com/appveen/mongo-go-driver/internal/testutil"
+	"github.com/appveen/mongo-go-driver/mongo/writeconcern"
+	"github.com/appveen/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/connstring"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/description"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/topology"
 )
 
 type scramTestCase struct {

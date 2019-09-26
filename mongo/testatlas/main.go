@@ -11,9 +11,9 @@ import (
 	"flag"
 	"log"
 
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/options"
+	"github.com/appveen/mongo-go-driver/bson"
+	"github.com/appveen/mongo-go-driver/mongo"
+	"github.com/appveen/mongo-go-driver/mongo/options"
 )
 
 func main() {

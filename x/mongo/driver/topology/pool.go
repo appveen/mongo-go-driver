@@ -12,8 +12,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.mongodb.org/mongo-driver/event"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
+	"github.com/appveen/mongo-go-driver/event"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/address"
 )
 
 // ErrPoolConnected is returned from an attempt to connect an already connected pool
@@ -58,14 +58,14 @@ type checkOutResult struct {
 
 // pool is a wrapper of resource pool that follows the CMAP spec for connection pools
 type pool struct {
+	nextid     uint64
 	address    address.Address
 	opts       []ConnectionOption
 	conns      *resourcePool // pool for non-checked out connections
 	generation uint64        // must be accessed using atomic package
 	monitor    *event.PoolMonitor
 
-	connected int32 // Must be accessed using the sync/atomic package.
-	nextid    uint64
+	connected int32                  // Must be accessed using the sync/atomic package.
 	opened    map[uint64]*connection // opened holds all of the currently open connections.
 	sync.Mutex
 }

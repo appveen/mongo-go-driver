@@ -7,8 +7,8 @@
 package options
 
 import (
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"github.com/appveen/mongo-go-driver/bson/primitive"
+	"github.com/appveen/mongo-go-driver/x/bsonx/bsoncore"
 )
 
 // DataKeyOptions specifies options for creating a new data key.

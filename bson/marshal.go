@@ -7,9 +7,9 @@
 package bson
 
 import (
-	"go.mongodb.org/mongo-driver/bson/bsoncodec"
-	"go.mongodb.org/mongo-driver/bson/bsonrw"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"github.com/appveen/mongo-go-driver/bson/bsoncodec"
+	"github.com/appveen/mongo-go-driver/bson/bsonrw"
+	"github.com/appveen/mongo-go-driver/bson/bsontype"
 )
 
 const defaultDstCap = 256

@@ -13,9 +13,9 @@ import (
 	"io"
 	"time"
 
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/mongocrypt"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/mongocrypt/options"
+	"github.com/appveen/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/mongocrypt"
+	"github.com/appveen/mongo-go-driver/x/mongo/driver/mongocrypt/options"
 )
 
 const (

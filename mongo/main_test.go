@@ -12,11 +12,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"go.mongodb.org/mongo-driver/internal/testutil/assert"
-	"go.mongodb.org/mongo-driver/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/x/bsonx"
+	"github.com/appveen/mongo-go-driver/internal/testutil/assert"
+	"github.com/appveen/mongo-go-driver/mongo/readconcern"
+	"github.com/appveen/mongo-go-driver/mongo/readpref"
+	"github.com/appveen/mongo-go-driver/mongo/writeconcern"
+	"github.com/appveen/mongo-go-driver/x/bsonx"
 )
 
 func TestMain(m *testing.M) {

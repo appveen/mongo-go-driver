@@ -17,14 +17,14 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	testhelpers "go.mongodb.org/mongo-driver/internal/testutil/helpers"
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/x/bsonx"
+	"github.com/appveen/mongo-go-driver/bson"
+	"github.com/appveen/mongo-go-driver/bson/bsontype"
+	testhelpers "github.com/appveen/mongo-go-driver/internal/testutil/helpers"
+	"github.com/appveen/mongo-go-driver/mongo/options"
+	"github.com/appveen/mongo-go-driver/mongo/readconcern"
+	"github.com/appveen/mongo-go-driver/mongo/readpref"
+	"github.com/appveen/mongo-go-driver/mongo/writeconcern"
+	"github.com/appveen/mongo-go-driver/x/bsonx"
 )
 
 // constants for AWS environment variables for auto encryption.

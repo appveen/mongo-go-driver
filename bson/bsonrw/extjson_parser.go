@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"io"
 
-	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"github.com/appveen/mongo-go-driver/bson/bsontype"
 )
 
 const maxNestingDepth = 200
