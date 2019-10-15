@@ -20,12 +20,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/golang/snappy"
 	"github.com/appveen/mongo-go-driver/x/bsonx/bsoncore"
 	"github.com/appveen/mongo-go-driver/x/mongo/driver"
 	"github.com/appveen/mongo-go-driver/x/mongo/driver/address"
 	"github.com/appveen/mongo-go-driver/x/mongo/driver/description"
 	"github.com/appveen/mongo-go-driver/x/mongo/driver/wiremessage"
+	"github.com/golang/snappy"
 )
 
 var globalConnectionID uint64 = 1

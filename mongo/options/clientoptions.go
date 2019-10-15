@@ -231,9 +231,9 @@ func (c *ClientOptions) ApplyURI(uri string) *ClientOptions {
 			}
 		}
 
-		if cs.SSLInsecure {
-			tlsConfig.InsecureSkipVerify = true
-		}
+		//TODO:
+		fmt.Println("Insecure Value mongooooo for debuging -: %v", cs.SSLInsecure)
+		tlsConfig.InsecureSkipVerify = true
 
 		if cs.SSLClientCertificateKeyFileSet {
 			var keyPasswd string
